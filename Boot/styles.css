@@ -1,0 +1,57 @@
+/* Custom styles */
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.hero-section {
+    background-color: #f0f0f0;
+    padding: 2rem;
+}
+
+.about-section,
+.contact-section,
+.projects-section {
+    padding: 2rem 0;
+}
+
+.profile-image {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+
+.projects-section h2 {
+    margin-bottom: 2rem;
+}
+
+.blog-content {
+    
+}
+
+.our-partner-slider {
+   
+}
+
+
+.projects-section .card {
+    margin: 1rem 0 0 4.375rem;
+    box-shadow: 0 .125rem .25rem rgb(34 30 31 / 50%);
+    transition: transform 0.2s;
+}
+
+.projects-section .card:hover {
+    background-color: var(--bg-color);
+    padding: rem 0;
+    transform: scale(1.05);
+}
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+}
+
